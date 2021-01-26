@@ -1,2 +1,4 @@
-
-2021-01-26 13:24:32.691 -03:00 [INF] User provided invalid ISO Code: asd
+2021-01-26 17:16:04.981 -03:00 [FTL] Unable to start Kestrel.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)

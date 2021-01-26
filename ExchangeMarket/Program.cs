@@ -30,11 +30,12 @@ namespace ExchangeMarket
             var configuration = GetConfiguration();
 
             Log.Logger = CreateSerilogLogger(configuration);
-            CreateHostBuilder(args).UseSerilog().Build().Run();
+            CreateHostBuilder(args).Build().Run();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging(l => l.AddSerilog())
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
