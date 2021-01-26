@@ -2,9 +2,11 @@
 
 ## Usage
 - Change database settings in appsetttings.json
-- On a console write dotnet run
+- Step into the folder /ExchangeMarket with a console and try dotnet run
 - Navigate to /swagger
 
+## Tests
+- To see the tests navigate to /Tests/ExchangeMarket.UnitTests and try dotnet test
 
 ## Questions
 Q: ¿What do you think about using the user ID as the input endpoint?
