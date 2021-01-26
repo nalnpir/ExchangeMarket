@@ -2,6 +2,7 @@
 
 ## Usage
 - Change database settings in appsetttings.json
+- Apply Database Scripts inside /Scripts
 - Step into the folder /ExchangeMarket with a console and try dotnet run
 - Navigate to /swagger
 
